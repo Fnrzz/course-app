@@ -1,0 +1,45 @@
+.btn-brown {
+    background-color: #CC753E;
+    color: white;
+}
+
+
+.btn-brown-active:focus {
+    background-color: #CC753E !important;
+    color: white !important;
+}
+
+
+.text-brown {
+    color: #CC753E;
+}
+
+.title {
+    font-size: 94px;
+}
+
+#menurutMereka {
+    min-height: 300px;
+}
+
+@media screen and (max-width:994px) {
+    .title {
+        font-size: 30px;
+    }
+    .img-header {
+        margin-top: 40px;
+        width: 300px;
+        height: 300px;
+    }
+    #menurutMereka {
+        min-height: 600px;
+    }
+    .table-head{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    .table-body{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
